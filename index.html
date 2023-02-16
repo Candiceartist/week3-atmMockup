@@ -14,52 +14,54 @@
       </div>
       <!-- Screen -->
       <div class="screen">
-             <div class="screenTxt"></div>
+             <div class="screenTxt"><h1>"Insert Card to Begin"</h1></div>
       </div>
       <!-- Card an receipt boxes -->
       <div class="cardRecBx">
-          <div class="recBx"><button onclick="uploadInfo(takeReceipt)"><p>Take Receipt</p></button></div>
-          <div class="cardBx"><button onclick="uploadInfo(insertCard)"><p>Insert Card</p></button></div>
+          <div class="recBx"><button onclick="takeTicket()"><p>Take Receipt</p></button></div>
+          <div class="cardBx"><button onclick="usePin()"><p>Insert Card</p></button></div>
       </div>
       <!-- cash Box -->
       <div class="cashBx">
              <div class="cashLine">
-             <div class="cashTxt"><button onclick="uploadInfo(takeCash)"><p>CASH</p></button></div>
-            </div>
+             <div class="cashTxt"><button onclick="withDraw()"><p>WITHDRAWAL</p></button></div>
+             <div class="cashTxt"><button onclick="depoCash()"><p>DEPOSIT</p></button></div>     
+       <div class="cashTxt"><button onclick="insertCash()"><p>INSERT CASH</p></button></div>
+       <div class="cashTxt"><button onclick="takeCash()"><p>TAKE CASH</p></button></div>
       </div>
       <div class="pinPad">
            <div class="numRow1">
               <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>-----1-----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>-----1-----</p></button></div>
                </div>
              <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----2----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----2----</p></button></div>
              </div>
              <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----3----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----3----</p></button></div>
               </div>
              <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----4----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----4----</p></button></div>
               </div>
               <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----5----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----5----</p></button></div>
           </div>
            </div>
         <div class="numRow2">
           <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----6----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----6----</p></button></div>
               </div>
           <div class="numBx">
-                 <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----7----</p></button></div>
+                 <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----7----</p></button></div>
           </div>
           <div class="numBx">
-                 <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----8----</p></button></div>
+                 <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----8----</p></button></div>
           </div>
           <div class="numBx">
-                  <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----9----</p></button></div>
+                  <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----9----</p></button></div>
           </div>
           <div class="numBx">
-                 <div class="numBxTxt"><button onclick="uploadInfo(enterPin)" class="numButton"><p>----0----</p></button></div>
+                 <div class="numBxTxt"><button onclick="pinPad()" class="numButton"><p>----0----</p></button></div>
           </div>
         </div>
     </div>

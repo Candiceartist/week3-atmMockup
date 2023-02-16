@@ -64,34 +64,34 @@
     height: 50px;
     width: 300px;
     background-color: rgb(112, 165, 26);
-    border: solid rgb(15, 15, 15);
-    border-width:1px ;
+    /* border: solid rgb(15, 15, 15);
+    border-width:1px ; */
     text-align: center;
     color: rgb(45, 46, 43);
     font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 .cashBx {
   border: solid rgb(114, 113, 113);
   border-width: 2px;
   width:410px;
-  height: 50px;
+  height: 75px;
   margin-left: 40px;
 }
 .cashBx .cashLine {
     height: 15Px;
-    width: 330px;
-    margin-left: 40px;
+    width: 380px;
+    display: flex;
+    justify-content:space-around;
 }
 .cashBx .cashTxt {
     text-align: center;
     margin-left: 25px;
-    height: 20px;
+    height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom: double gray 9px;
-    border-weight: 15px;
 }
 .cardRecBx {
-    border: solid rgb(114, 113, 113);
+    border: solid rgb(53, 52, 52);
     border-width: 2px;
     border-radius: 10px;
     width:410px;
@@ -106,6 +106,7 @@
     height: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: double gray 5px;
+    back
 }
 .cardRecBx .cardBx {
     width: 40%;
@@ -120,7 +121,7 @@
     border-width: 2px;
     width:410px;
   height: 100px;
-  margin-left: 40px;
+  margin-top: 75px;
 }
 .pinPad .numRow1{
    
@@ -158,10 +159,15 @@
 }
 .numButton {
     background: rgb(151, 41, 151);
+    border: solid rgb(151, 41, 151) 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(72, 63, 63)
     width: 10px;
     height: 90%;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 10px;
+    font-weight: bold;
+}
+button {
+    border-radius: 10px;
 }
